@@ -15,12 +15,13 @@ namespace digitalLSATPrep
             items = new List<Item>();
             var _items = new List<Item>
             {
-                new Item { Id = Guid.NewGuid().ToString(), Text = "First item", Description="This is a nice description"},
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Second item", Description="This is a nice description"},
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is a nice description"},
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is a nice description"},
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is a nice description"},
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is a nice description"},
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Getting familiar with", Description="Step by step demostration"},
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Practice runs", Description="Live digitalLSAT simulator"},
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Prep tests", Description="Practic prep test in digitalLSAT"},
+                new Item { Id = Guid.NewGuid().ToString(), Text = "Register", Description="Register a digitalLSAT test"},
+                new Item { Id = Guid.NewGuid().ToString(), Text = "My tests", Description="Manage you digitalLSAT tests"},
+                new Item { Id = Guid.NewGuid().ToString(), Text = "My scores", Description="Your past LSAT scores"},
+                new Item { Id = Guid.NewGuid().ToString(), Text = "About", Description="Information about this app"},
             };
 
             foreach (Item item in _items)

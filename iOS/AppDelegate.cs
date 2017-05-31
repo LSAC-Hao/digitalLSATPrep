@@ -20,15 +20,13 @@ namespace digitalLSATPrep.iOS
         {
             App.Initialize();
 
-
-
             // Select first UIViewController.
-            if (Settings.IsLoggedIn)
+            //if (Settings.IsLoggedIn)
                 Window.RootViewController = UIStoryboard.FromName("Main", null)
-                                                 .InstantiateViewController("tabViewController");
-            else
-                Window.RootViewController = UIStoryboard.FromName("Main", null)
-                                                 .InstantiateViewController("loginViewController");
+                                                 .InstantiateViewController("mainMenuController");
+            //else
+            //    Window.RootViewController = UIStoryboard.FromName("Main", null)
+            //                                     .InstantiateViewController("loginViewController");
 
             return true;
         }

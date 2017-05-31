@@ -11,7 +11,7 @@ namespace digitalLSATPrep
 
         public ItemsViewModel()
         {
-            Title = "Browse";
+            Title = "digitalLSAT";
             Items = new ObservableRangeCollection<Item>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 
